@@ -2,15 +2,12 @@
 
 draft:
   title: Draft Blog Post
-  body: This is a draft blog post.
   published_at: null
 
 published:
   title: Published Blog Post
-  body: This is a published blog post.
   published_at: <%= 1.year.ago %>
 
 scheduled:
   title: Scheduled Blog Post
-  body: This is a scheduled blog post.
   published_at: <%= 1.year.from_now %>
